@@ -14,8 +14,8 @@ date_format: '%Y-%m-%d'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com' and baseurl as '/child'
-url:
-baseurl: /jekyll-theme-next
+url: https://whitewhale005.github.io
+baseurl: /backup
 permalink: pretty
 
 # Pagination
@@ -117,12 +117,12 @@ index_with_subtitle: false
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
   home: /
-  #categories: /categories/
-  #about: /about/
-  archives: /archives/
-  tags: /tags/
-  #sitemap: /sitemap.xml
-  #commonweal: /404.html
+  #categories: categories/
+  #about: about/
+  archives: archives/
+  tags: tags/
+  #sitemap: sitemap.xml
+  #commonweal: 404.html
 
 
 # Enable/Disable menu icons.
@@ -379,8 +379,8 @@ han: false
 
 # Disqus
 disqus:
-  enable: false
-  shortname:
+  enable: true
+  shortname: Comment Box
   count: true
   # hide comments (visitors need to click to load the comments)
   # count need to be false when hide is true
